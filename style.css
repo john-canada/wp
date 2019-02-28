@@ -1,0 +1,350 @@
+/*
+Theme Name:     Jupiter Child Theme
+Theme URI:    	http://themeforest.net/user/artbees
+Description:    Child theme for the Jupiter theme
+Author:         RDTI SoftDev
+Theme URI:    	http://themeforest.net/user/artbees
+Template:       jupiter
+Version:        1.0
+*/
+
+
+/** blog **/
+
+body,
+html {
+    background: #f1f1f1;
+}
+
+.btn-read-more-container {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.the-title {
+    text-align: center;
+    text-shadow: 0 0 2px grey;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.meta-tag {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.the-excerpt {
+    margin-top: 20px;
+}
+
+#comments {
+    text-align: right;
+}
+
+
+/** dash icon**/
+
+.dashicons-tag:before {
+    content: "\f323";
+    color: deepskyblue;
+}
+
+.dashicons-admin-comments {
+    color: deepskyblue;
+}
+
+#btn-read-more {
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.5s;
+}
+
+#btn-read-more:hover {
+    background-color: #3e8e41!important;
+    opacity: 1
+}
+
+
+/** feature image **/
+
+.featured-image {
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center center;
+}
+
+#mk-page-introduce {
+    transition: 0.3s
+}
+
+.mk-header-holder {
+    transition: 0.3s
+}
+
+
+/** custom menu **/
+
+#menu-custom-menu {
+    display: flex!important;
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+#menu-custom-menu li {
+    margin-top: 25px;
+}
+
+.sub-menu {
+    display: none;
+}
+
+.nav-menu {
+    height: 80px;
+    text-align: center;
+    font-size: 18px;
+    background: #f1f1f1;
+}
+
+.btn-menu {
+    float: right;
+    margin-right: 20vw;
+}
+
+.mkrow {
+    background: #f1f1f1;
+}
+
+.container-fluid {
+    background: #f1f1f1;
+}
+
+.col-sm-8 {
+    margin: 0 auto;
+}
+
+.sub-menu {
+    position: absolute;
+    z-index: 9;
+}
+
+#menu-custom-menu li a:hover {
+    padding: 10px;
+    background: orange;
+}
+
+.header-wrapper {
+    background: #f1f1f1;
+    padding-top: 10px;
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    z-index: 9;
+}
+
+.top-bar {
+    background: #444;
+    padding-top: 10px;
+    border-bottom: 1px solid gainsboro;
+    padding-bottom: 10px;
+    color: #f1f1f1;
+}
+
+.dashicons-facebook-alt {
+    content: "\f305";
+}
+
+.social-items {
+    display: flex;
+}
+
+.social {
+    margin-top: 25px;
+}
+
+#menu-menu {
+    background: orange;
+    width: 60px;
+    height: 60px;
+    font-size: 37px;
+    word-break: break-all;
+    border: 2px solid;
+    padding-top: 0px;
+    float: right;
+    position: relative;
+    margin-top: -60px!important;
+    padding-left: 9.5px;
+}
+
+#menu-custom-menu {
+    display: block!important;
+    width: 300px;
+    height: auto;
+    /* margin: 0 auto; */
+    padding-bottom: 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    float: right;
+    /* position: absolute; */
+    background: rgba(0, 0, 0, 0.05);
+    border-bottom: 2px solid orange;
+    margin-top: 90px;
+    margin-right: -15px;
+    margin-top: 13px;
+}
+
+.call-us {
+    font-size: 22px;
+    margin-top: 10px;
+    color: darkorange;
+}
+
+
+/** button icon **/
+
+.dashicons-menu:before {
+    content: "\f333";
+    color: black;
+}
+
+
+/** jeans template**/
+
+.ul-data {
+    padding-top: 100px;
+}
+
+.books-post-type {
+    padding-top: 120px;
+}
+
+.master-holder h3 {
+    width: 158px;
+}
+
+.woocommerce-billing-fields {
+    width: 400px;
+}
+
+#order_comments {
+    width: 200px;
+}
+
+
+/** home page post grid **/
+
+.the-post {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 15px;
+}
+
+.the-post>li {
+    width: 250px;
+    height: 400px;
+    /* border: 2px solid #ddd; */
+    text-align: center;
+    /* padding: 10px; */
+}
+
+.featured {
+    width: 100%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.the-post {
+    margin-bottom: 100px;
+}
+
+.thumbcat {
+    width: 200px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.ul-product-cat {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 15px;
+}
+
+.ul-product-cat>li {
+    width: 250px;
+    height: 300px;
+}
+
+
+/*** featured products ***/
+
+.featured-product {
+    display: -webkit-box;
+}
+
+.the-title:before {
+    content: " \" ";
+    color: #ccc;
+    position: relative;
+}
+
+.the-title:after {
+    content: " \" ";
+    color: #ccc;
+    position: relative;
+}
+
+.the-excerpt {
+    margin-top: 10px;
+    padding: 15px;
+}
+
+
+/** jeans products**/
+
+.my-post {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 15px;
+}
+
+.my-post>li {
+    width: 250px;
+    height: 350px;
+}
+
+.get-in-touch {
+    margin-top: 840px
+}
+
+
+/** related product ***/
+
+.products.columns-2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+
+/** single page **/
+
+.quantity {
+    display: none!important;
+}
+
+.stock.in-stock {
+    display: none;
+}
